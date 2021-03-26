@@ -1,5 +1,7 @@
 package com.example.BTS.entity;
-	import javax.validation.constraints.NotBlank;
+	import java.sql.Date;
+
+import javax.validation.constraints.NotBlank;
 	import javax.validation.constraints.NotNull;
     import org.springframework.data.annotation.Id;
 
@@ -29,6 +31,14 @@ package com.example.BTS.entity;
 		public void setId(String id) {
 			this.id = id;
 		}
+		public Date date;
+		public Date getDate() {
+			return date;
+		}
+		public void setDate(Date date) {
+			this.date = date;
+		}
+		
 	}
 		
 		
