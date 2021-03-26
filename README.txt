@@ -1,6 +1,6 @@
-Order API
+Bug API
 
-C - /order + POST, 201
-R
-U
-D  
+C - bug/ + POST
+R - bug/ + GET
+U - bug/{id} + PUT
+D - bug/{id} + DELETE
